@@ -1,0 +1,36 @@
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# C and C++
+*.o
+*.out
+*.exe
+*.app
+*.dylib
+*.so
+*.dSYM/
+
+# Java
+*.class
+*.log
+*.jar
+*.war
+/bin/
+/build/
+/target/
+hs_err_pid*
+
+# Local Databases / SQL
+*.db
+*.sqlite
+*.sqlite3
+
+# Security and Environment Variables
+.env
+*.pem
