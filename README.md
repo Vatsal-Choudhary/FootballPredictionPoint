@@ -1,4 +1,4 @@
-# ⚽ World Cup Predictor 2026
+ World Cup Predictor 2026
 
 A full-stack web application for FIFA World Cup 2026 match predictions. Create private leagues, predict match scores, and compete with friends on the leaderboard.
 
@@ -6,17 +6,17 @@ A full-stack web application for FIFA World Cup 2026 match predictions. Create p
 
 ---
 
-## ✨ Features
+Features
 
-- **🔐 Authentication** — Register with email verification (Nodemailer), JWT-based sessions
-- **🏆 Match Predictions** — Predict scores for all 104 World Cup matches before the lock time
-- **👥 Private Groups** — Create prediction leagues and invite friends via unique codes or email
-- **📊 Live Leaderboards** — Global and per-group rankings with real-time point updates
-- **⚡ Auto-Scoring** — Cron job fetches live results from [WorldCup26 API](https://worldcup26.ir) and calculates points automatically
-- **🛡️ Admin Dashboard** — Override results, trigger score recalculations, view platform stats
-- **📱 Responsive Design** — Premium dark UI with glassmorphism, works on all devices
+- ** Authentication** — Register with email verification (Nodemailer), JWT-based sessions
+- ** Match Predictions** — Predict scores for all 104 World Cup matches before the lock time
+- ** Private Groups** — Create prediction leagues and invite friends via unique codes or email
+- ** Live Leaderboards** — Global and per-group rankings with real-time point updates
+- ** Auto-Scoring** — Cron job fetches live results from [WorldCup26 API](https://worldcup26.ir) and calculates points automatically
+- ** Admin Dashboard** — Override results, trigger score recalculations, view platform stats
+- ** Responsive Design** — Premium dark UI with glassmorphism, works on all devices
 
-## 🎯 Scoring System
+##  Scoring System
 
 | Prediction Outcome | Points |
 |---|---|
@@ -27,7 +27,7 @@ A full-stack web application for FIFA World Cup 2026 match predictions. Create p
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -41,7 +41,7 @@ A full-stack web application for FIFA World Cup 2026 match predictions. Create p
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -101,7 +101,7 @@ The frontend runs on `http://localhost:5173` and proxies API calls to `http://lo
 
 ---
 
-## 🗄️ Database Schema
+##  Database Schema
 
 ```
 users          ─── groups (via group_members)
@@ -118,7 +118,7 @@ users          ─── groups (via group_members)
 
 ---
 
-## 📡 API Endpoints
+##  API Endpoints
 
 ### Authentication
 | Method | Endpoint | Auth | Description |
@@ -153,7 +153,7 @@ users          ─── groups (via group_members)
 
 ---
 
-## 🚢 Deployment
+##  Deployment
 
 ### Backend → Render
 
@@ -173,7 +173,7 @@ users          ─── groups (via group_members)
 
 ---
 
-## 🐛 Debugging (VS Code)
+##  Debugging (VS Code)
 
 The project includes a `.vscode/launch.json` with configurations:
 
@@ -184,7 +184,7 @@ The project includes a `.vscode/launch.json` with configurations:
 
 ---
 
-## 📝 Environment Variables
+##  Environment Variables
 
 | Variable | Description | Required |
 |---|---|---|
@@ -202,6 +202,6 @@ The project includes a `.vscode/launch.json` with configurations:
 
 ---
 
-## 📄 License
+##  License
 
 MIT License — feel free to use this for your own World Cup prediction pools!
